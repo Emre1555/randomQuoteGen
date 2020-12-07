@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #333333;
+    padding:5rem 15rem;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 2rem 2rem;
+    min-width: 20rem;
+    max-width:40rem;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote{
+    border-left: 4px solid #F7DF94;
+    margin: 2rem 0rem;
+}
+
+.authorBtn{
+    background-color: aliceblue;
+    border:none;
+    padding:10px;
+    
+}
+
+.authorBtn:hover{
+    background-color: #333333;
+    cursor: pointer;
+    color: white;
+}
+
+.randomBtn{
+    background-color: aliceblue;
+    border:none;  
+    padding:8px;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+.randomBtn:hover{
+    background-color: #333333;
+    cursor: pointer;
+    color: white;
+}
+
+.material-icons{
+    position: relative;
+    top: 5px;
+    left:5px;
+}
